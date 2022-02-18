@@ -1,0 +1,129 @@
+{
+    "company_relationships": [
+        {
+            "_id": "60c3253534aa550f30e067a8",
+            "relation_name": "immediate_parent_entity",
+            "stake_percent": null,
+            "relation_type": "cra::company",
+            "relation_id": "5d791c0ca61fc91e7f881249",
+            "company_id": "5e2ea581947ad805d02b59ac",
+            "company_name": "TATA MOTORS LIMITED",
+            "company_cin": "L28920MH1945PLC004520",
+            "entity_id": "60c3252d34aa5530336c7b14",
+            "external_visibility": true,
+            "financial_infos": {
+                "2020": {
+                    "net_worth": 623589900000.0,
+                    "total_assets": 3221212600000.0,
+                    "borrowing": null,
+                    "leverage": null,
+                    "revenues": null,
+                    "pat": -120708500000.0
+                },
+                "2019": {
+                    "net_worth": 595003400000.0,
+                    "total_assets": 3071945300000.0,
+                    "borrowing": null,
+                    "leverage": null,
+                    "revenues": null,
+                    "pat": -288262300000.0
+                },
+                "2018": {
+                    "net_worth": 947486900000.0,
+                    "total_assets": 3313505100000.0,
+                    "borrowing": null,
+                    "leverage": null,
+                    "revenues": null,
+                    "pat": 89889100000.0
+                },
+                "2017": {
+                    "net_worth": 573826700000.0,
+                    "total_assets": 2737543600000.0,
+                    "borrowing": null,
+                    "leverage": null,
+                    "revenues": null,
+                    "pat": 74543600000.0
+                },
+                "2016": {
+                    "net_worth": 782732300000.0,
+                    "total_assets": 2671411500000.0,
+                    "borrowing": null,
+                    "leverage": null,
+                    "revenues": null,
+                    "pat": 116781900000.0
+                },
+                "2015": {
+                    "net_worth": 556181400000.0,
+                    "total_assets": 2386579900000.0,
+                    "borrowing": null,
+                    "leverage": null,
+                    "revenues": null,
+                    "pat": 139862900000.0
+                },
+                "2014": {
+                    "net_worth": 649596700000.0,
+                    "total_assets": 2199983200000.0,
+                    "borrowing": null,
+                    "leverage": null,
+                    "revenues": null,
+                    "pat": 139910200000.0
+                }
+            },
+            "company_mca_status": "active",
+            "nature_of_business": "",
+            "description": "NIL",
+            "cibil_score": null,
+            "name": "Tata Motors Finance Limited"
+        },
+        {
+            "_id": "5e00979100d0684568ec8433",
+            "relation_name": "immediate_parent_entity",
+            "stake_percent": 96.9,
+            "relation_type": "cra::company",
+            "relation_id": "5d791c0ca61fc91e7f881249",
+            "company_id": "5e009737947ad83f90421dc5",
+            "company_name": "TMF Holdings Limited",
+            "company_cin": "U65923MH2006PLC162503",
+            "entity_id": null,
+            "external_visibility": null,
+            "company_mca_status": "active",
+            "nature_of_business": "Core investment company",
+            "description":
+                "TMF Holdings Limited is a core investment company (CIC) held 100% by Tata Motors Ltd ( TML ) which is a leading global automobile manufacturer with a portfolio that covers a wide range of cars, sports vehicles, buses, trucks and defense vehicles.TMFHL is the holding company for the financial services business of TMF group and is responsible for lending and investing in the Tata Motors Group companies. Following a restructuring of the TMF Group in FY2017, the new vehicle financing business of the Group is housed in TMFL (Formerly known as Sheba Properties Limited). The existing Corporate Lending Business (dealer/ vendor financing business) and used vehicle financing business is housed in TMFSL.\n\n",
+            "cibil_score": null,
+            "name": "Tata Motors Finance Limited"
+        },
+        {
+            "_id": "5e00951100d0684564a834dd",
+            "relation_name": "associate_sister_subsidiary",
+            "stake_percent": null,
+            "relation_type": "cra::company",
+            "relation_id": "5d791c0ca61fc91e7f881249",
+            "company_id": "5e009499947ad83f90421dbc",
+            "company_name": "TATA MOTORS FINANCE SOLUTIONS LIMITED",
+            "company_cin": "U65910MH1992PLC187184",
+            "entity_id": "5e257c81947ad8482ccd4006",
+            "external_visibility": true,
+            "company_mca_status": "active",
+            "nature_of_business":
+                "Used vehicle financing and dealer/ vendor financing",
+            "description":
+                "Tata Motors Finance Solutions Ltd (TMFSL) (Formerly Rajasthan Leasing Private Limited) is a fully owned subsidiary of Tata Motors Finance Holdings Ltd (TMFHL). Since January 2015, with its Headquarters in Thane, TMFSL focuses on Tata Motors’ ‘Used Vehicles’ financing business. The company concentrates on growing the market of Used Tata Motors Vehicles through Quick and easy financing for Used Tata Vehicles. It also supports Tata Motors ecosystem comprising of Dealers \u0026 Vendors by extending Corporate loans to them.",
+            "cibil_score": null,
+            "name": "Tata Motors Finance Limited"
+        }
+    ],
+    "ultimate_parent_entity": {
+        "id": "5e00979100d0684568ec8433",
+        "company_cin": "U65923MH2006PLC162503",
+        "company_id": "5e009737947ad83f90421dc5",
+        "company_name": "TMF Holdings Limited",
+        "nature_of_business": "Core investment company",
+        "relation_name": "immediate_parent_entity",
+        "stake_percent": 96.9,
+        "cibil_score": null,
+        "name": "Tata Motors Finance Limited",
+        "entity_id": null,
+        "external_visibility": null
+    }
+}
