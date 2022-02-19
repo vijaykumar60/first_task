@@ -1,0 +1,238 @@
+{
+    "rating_history": [
+    {
+    "id": "61e05d46fc37c0a301bde140",
+    "rated_on": "2021-02-16T00:00:00.000+00:00",
+    "rating": "aa-",
+    "rating_action": "reaffirmed",
+    "rating_group": "standalone",
+    "outlook": "stable",
+    "article_link": null
+    },
+    {
+    "id": "61e05d46fc37c0a301bdf039",
+    "rated_on": "2021-02-16T00:00:00.000+00:00",
+    "rating": "a",
+    "rating_action": "reaffirmed",
+    "rating_group": "standalone",
+    "outlook": "stable",
+    "article_link": null
+    },
+    {
+    "id": "61e05d5afc37c0a301c113de",
+    "rated_on": "2021-02-16T00:00:00.000+00:00",
+    "rating": "aa-",
+    "rating_action": "reaffirmed",
+    "rating_group": "standalone",
+    "outlook": "stable",
+    "article_link": null
+    },
+    {
+    "id": "61e05d5afc37c0a301c13cc6",
+    "rated_on": "2021-02-16T00:00:00.000+00:00",
+    "rating": "aa-",
+    "rating_action": "reaffirmed",
+    "rating_group": "standalone",
+    "outlook": "stable",
+    "article_link": null
+    },
+    {
+    "id": "61e05d4bfc37c0a301be8b3a",
+    "rated_on": "2020-08-21T00:00:00.000+00:00",
+    "rating": "aa-",
+    "rating_action": "reaffirmed",
+    "rating_group": "standalone",
+    "outlook": "negative",
+    "article_link": null
+    },
+    {
+    "id": "61e05d5afc37c0a301c133e3",
+    "rated_on": "2020-08-21T00:00:00.000+00:00",
+    "rating": "a",
+    "rating_action": "reaffirmed",
+    "rating_group": "standalone",
+    "outlook": "negative",
+    "article_link": null
+    },
+    {
+    "id": "61e05d5afc37c0a301c14154",
+    "rated_on": "2020-08-21T00:00:00.000+00:00",
+    "rating": "aa-",
+    "rating_action": "reaffirmed",
+    "rating_group": "standalone",
+    "outlook": "negative",
+    "article_link": null
+    },
+    {
+    "id": "61e05d5efc37c0a301c159e8",
+    "rated_on": "2020-08-21T00:00:00.000+00:00",
+    "rating": "aa-",
+    "rating_action": "reaffirmed",
+    "rating_group": "standalone",
+    "outlook": "negative",
+    "article_link": null
+    },
+    {
+    "id": "61e05d50fc37c0a301bf9027",
+    "rated_on": "2020-06-08T00:00:00.000+00:00",
+    "rating": "aa-",
+    "rating_action": "reaffirmed",
+    "rating_group": "standalone",
+    "outlook": "negative",
+    "article_link": null
+    },
+    {
+    "id": "61e05d46fc37c0a301bdd3e5",
+    "rated_on": "2019-08-05T00:00:00.000+00:00",
+    "rating": "aa-",
+    "rating_action": "downgraded",
+    "rating_group": "standalone",
+    "outlook": "negative",
+    "article_link": null
+    },
+    {
+    "id": "61e05d5afc37c0a301c1282b",
+    "rated_on": "2019-08-05T00:00:00.000+00:00",
+    "rating": "aa-",
+    "rating_action": "downgraded",
+    "rating_group": "standalone",
+    "outlook": "negative",
+    "article_link": null
+    },
+    {
+    "id": "61e05d5efc37c0a301c164d1",
+    "rated_on": "2019-08-05T00:00:00.000+00:00",
+    "rating": "a",
+    "rating_action": "downgraded",
+    "rating_group": "standalone",
+    "outlook": "negative",
+    "article_link": null
+    },
+    {
+    "id": "61e05d68fc37c0a301c21705",
+    "rated_on": "2019-08-05T00:00:00.000+00:00",
+    "rating": "aa-",
+    "rating_action": "downgraded",
+    "rating_group": "standalone",
+    "outlook": "negative",
+    "article_link": null
+    },
+    {
+    "id": "61e05d4bfc37c0a301be9009",
+    "rated_on": "2019-06-10T00:00:00.000+00:00",
+    "rating": null,
+    "rating_action": "withdrawn",
+    "rating_group": "standalone",
+    "outlook": "",
+    "article_link": null
+    },
+    {
+    "id": "61e05d4bfc37c0a301bef5e1",
+    "rated_on": "2019-06-10T00:00:00.000+00:00",
+    "rating": "aa",
+    "rating_action": "reaffirmed",
+    "rating_group": "standalone",
+    "outlook": "negative",
+    "article_link": null
+    },
+    {
+    "id": "61e05d5afc37c0a301c0e4c9",
+    "rated_on": "2019-06-10T00:00:00.000+00:00",
+    "rating": "a+",
+    "rating_action": "reaffirmed",
+    "rating_group": "standalone",
+    "outlook": "negative",
+    "article_link": null
+    },
+    {
+    "id": "61e05d50fc37c0a301bf7940",
+    "rated_on": "2019-05-08T00:00:00.000+00:00",
+    "rating": "aa",
+    "rating_action": "reaffirmed",
+    "rating_group": "standalone",
+    "outlook": "negative",
+    "article_link": null
+    },
+    {
+    "id": "61e05d42fc37c0a301bcd650",
+    "rated_on": "2019-02-14T00:00:00.000+00:00",
+    "rating": "a+",
+    "rating_action": "reaffirmed",
+    "rating_group": "standalone",
+    "outlook": "negative",
+    "article_link": null
+    },
+    {
+    "id": "61e05d46fc37c0a301bde364",
+    "rated_on": "2019-02-14T00:00:00.000+00:00",
+    "rating": "aa",
+    "rating_action": "reaffirmed",
+    "rating_group": "standalone",
+    "outlook": "negative",
+    "article_link": null
+    },
+    {
+    "id": "61e05d4bfc37c0a301be64af",
+    "rated_on": "2019-02-14T00:00:00.000+00:00",
+    "rating": "aa",
+    "rating_action": "reaffirmed",
+    "rating_group": "standalone",
+    "outlook": "negative",
+    "article_link": null
+    },
+    {
+    "id": "61e05d50fc37c0a301bf778a",
+    "rated_on": "2019-02-14T00:00:00.000+00:00",
+    "rating": "aa",
+    "rating_action": "reaffirmed",
+    "rating_group": "standalone",
+    "outlook": "negative",
+    "article_link": null
+    },
+    {
+    "id": "61e05d46fc37c0a301be1078",
+    "rated_on": "2018-10-22T00:00:00.000+00:00",
+    "rating": "a+",
+    "rating_action": "reaffirmed",
+    "rating_group": "standalone",
+    "outlook": "stable",
+    "article_link": null
+    },
+    {
+    "id": "61e05d46fc37c0a301be25a0",
+    "rated_on": "2018-10-22T00:00:00.000+00:00",
+    "rating": "aa",
+    "rating_action": "reaffirmed",
+    "rating_group": "standalone",
+    "outlook": "stable",
+    "article_link": null
+    },
+    {
+    "id": "61e05d5efc37c0a301c18f4a",
+    "rated_on": "2018-10-22T00:00:00.000+00:00",
+    "rating": "aa",
+    "rating_action": "reaffirmed",
+    "rating_group": "standalone",
+    "outlook": "stable",
+    "article_link": null
+    },
+    {
+    "id": "61e05d5efc37c0a301c1b512",
+    "rated_on": "2018-10-22T00:00:00.000+00:00",
+    "rating": "aa",
+    "rating_action": "reaffirmed",
+    "rating_group": "standalone",
+    "outlook": "stable",
+    "article_link": null
+    },
+    {
+    "id": "61e05d5efc37c0a301c19843",
+    "rated_on": "2018-05-31T00:00:00.000+00:00",
+    "rating": "aa",
+    "rating_action": "reaffirmed",
+    "rating_group": "standalone",
+    "outlook": "positive",
+    "article_link": null
+    }
+    ]
+    }
