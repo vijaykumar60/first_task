@@ -1,14 +1,6 @@
 module TreeModelConcern
     extend ActiveSupport::Concern
 
-    JSON_TO_COLUMN_HEADER_MAPPING = {
-        "company_name" => "Compnay Name",
-        "company_cin" => "CIN",
-        "relation_name" => "Relation Entity",
-        "stake_percent" => "% Stake",
-        "company_mca_status" => "MCA Status",
-        "nature_of_business" => "Nature Of Business"
-    }
 
     class TreeNode
   
@@ -29,21 +21,21 @@ module TreeModelConcern
   
     end
 
-    def convert_in_trees
+    def convert_in_trees(column_mapping, file_name, json_header)
         final_ans = TreeNode.new("table")
-        table_head = get_table_head
+        table_head = get_table_head(column_mapping)
         final_ans.add_child(table_head)
-        table_body = get_table_body
+        table_body = get_table_body(column_mapping, file_name, json_header)
         final_ans.add_child(table_body)
         puts final_ans
         return final_ans
     end
 
     private 
-        def get_table_head 
+        def get_table_head(column_mapping)
             head_hash = TreeNode.new("thead")
             tr_hash = TreeNode.new("tr")
-            JSON_TO_COLUMN_HEADER_MAPPING.each do |key, value|
+            column_mapping.each do |key, value|
                 td_hash = TreeNode.new("td")
                 leaf_node = TreeNode.new("text", true, value)
                 td_hash.add_child(leaf_node)
@@ -53,14 +45,15 @@ module TreeModelConcern
             return head_hash
         end
 
-        def get_table_body
-            input_file = File.open "/Users/vijay.kumar/credavenue/first_task/config/input.json"
+        def get_table_body(column_mapping, file_name, json_header)
+            file_path = "/Users/vijay.kumar/credavenue/first_task/config/"+file_name+".json"
+            input_file = File.open file_path
             input_json_data = JSON.load input_file
 
             body_hash = TreeNode.new("tbody")
-            input_json_data["company_relationships"].each do |item|
+            input_json_data[json_header].each do |item|
                 tr_hash = TreeNode.new("tr")
-                JSON_TO_COLUMN_HEADER_MAPPING.each do |key, value|
+                column_mapping.each do |key, value|
                     item_value = "NA"
                     if item.key?(key)
                     if item[key].nil? == false 
